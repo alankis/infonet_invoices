@@ -12,13 +12,15 @@ default: &default
 development:
   adapter: mysql2
   encoding: utf8
-  database: '*******'
+  database: 'devinfon_whmcsdb'
   pool: 5
-  username: '*******'
-  password: '*******'
-  host: '******'
+  username: 'devinfon_whmcsus'
+  password: 'alan123$#'
+  host: '91.234.46.215'
   port: '3306'
   #socket: /tmp/mysql.sock
+  # Gracefully handle MySQL errors, like borken or invalid fields
+  cast: false
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
