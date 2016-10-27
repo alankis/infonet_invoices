@@ -12,11 +12,11 @@ default: &default
 development:
   adapter: mysql2
   encoding: utf8
-  database: 'devinfon_whmcsdb'
+  database: '*******'
   pool: 5
-  username: 'devinfon_whmcsus'
-  password: 'alan123$#'
-  host: '91.234.46.215'
+  username: '*******'
+  password: '*******'
+  host: '******'
   port: '3306'
   #socket: /tmp/mysql.sock
 
