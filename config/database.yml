@@ -12,12 +12,12 @@ default: &default
 development:
   adapter: mysql2
   encoding: utf8
-  database: 'devinfon_whmcsdb'
+  database: YOUR_DATABASE_NAME
   pool: 5
-  username: 'devinfon_whmcsus'
-  password: 'alan123$#'
-  host: '91.234.46.215'
-  port: '3306'
+  username: YOUR_DATABASE_USER
+  password: YOUR_DATABASE_PASSWORD
+  host: YOUR_DATABASE_IP
+  port: YOUR_DATABASE_PORT
   #socket: /tmp/mysql.sock
   # Gracefully handle MySQL errors, like borken or invalid fields
   cast: false
