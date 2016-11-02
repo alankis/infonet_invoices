@@ -12,7 +12,7 @@ default: &default
 development:
   adapter: mysql2
   encoding: utf8
-  database: 'devinfon_whmcsdb'
+  database: YOUR_DATABASE_NAME
   pool: 5
   username: 'devinfon_whmcsus'
   password: 'alan123$#'
