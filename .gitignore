@@ -15,3 +15,5 @@
 /log/*
 !/log/.keep
 /tmp
+# Igone config/database.yml
+/config/database.yml
