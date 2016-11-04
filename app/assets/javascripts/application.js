@@ -16,3 +16,4 @@
 //= require_tree .
 //= require jquery
 //= require bootstrap
+//= require filterrific/filterrific-jquery
