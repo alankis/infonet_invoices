@@ -41,5 +41,5 @@
   <% end %>
 </table>
 <div class="pagination">
-  <%= will_paginate @invoices %>
+  <%= will_paginate @invoices, renderer: BootstrapPagination::Rails %>
 </ul>
